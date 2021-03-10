@@ -1,0 +1,35 @@
+/**
+ * 
+ */
+package StudentFactory;
+
+/**
+ * @author atiqa
+ *
+ */
+public class DBMS2Factory extends Factory{
+
+	@Override
+	public void bulitCourse() {
+		course = new Course("DBSM 2 - 504");
+		
+	}
+
+	@Override
+	public void addStudentsToCourse() {
+		course.addStudent(new DBSM2Student(823, "Hadi Sunney"));
+		course.addStudent(new DBSM2Student(825, "Aba Kawser"));
+		course.addStudent(new DBSM2Student(827, "Suravi Akhter"));
+		course.addStudent(new DBSM2Student(829, "Sabik Abtahee"));
+		course.addStudent(new DBSM2Student(830, "Obaidur Rahman"));
+		course.addStudent(new DBSM2Student(831, "Rafiul Islam"));
+		
+	}
+
+	@Override
+	public void addTeacherToCourse() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

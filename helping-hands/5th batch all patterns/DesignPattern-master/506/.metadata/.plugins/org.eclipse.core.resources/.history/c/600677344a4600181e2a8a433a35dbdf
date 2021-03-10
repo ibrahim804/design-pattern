@@ -1,0 +1,21 @@
+package assignemtFascade;
+
+public class CommandProcessor {
+	
+	public void proceed() {
+		
+		while(true) {
+		
+			System.out.println("Please Enter your command$: ");
+			
+			
+		}
+		
+	}
+	
+	
+	
+	
+	
+
+}

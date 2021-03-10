@@ -1,0 +1,9 @@
+package StudentFactory;
+
+public class BusinessCommunicationTeacher extends AbsTeacher{
+
+	@Override
+	public void otherDetails() {
+		System.out.println("I teach business communication.");
+	}
+}

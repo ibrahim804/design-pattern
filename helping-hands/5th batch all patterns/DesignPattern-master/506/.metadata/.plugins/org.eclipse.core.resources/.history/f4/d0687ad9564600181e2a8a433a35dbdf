@@ -1,0 +1,16 @@
+package AssignmentCommandSpliter;
+
+import java.util.ArrayList;
+
+import AssignmentInterfaces.ICommandProcedurerMethods;
+import command.TransformCommand;
+
+public class UndoCommandMethod implements ICommandProcedurerMethods{
+
+	@Override
+	public void proceedCommand(ArrayList<TransformCommand> commandList) {
+		System.out.println("undo");
+		
+	}
+
+}

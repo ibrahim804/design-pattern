@@ -1,0 +1,18 @@
+package StudentFactory;
+
+import java.util.ArrayList;
+
+public abstract class Course implements ICourse{
+
+	protected String courseName;
+	protected ArrayList<AbsStudent> allStudent;
+	protected ArrayList<ITeacher> allTeacher;
+	
+	public Course(String courseName) {
+		this.courseName = courseName;
+	}
+	
+	
+	
+	
+}

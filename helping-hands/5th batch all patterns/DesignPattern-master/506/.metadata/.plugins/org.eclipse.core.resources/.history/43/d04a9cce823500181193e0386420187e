@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package StudentFactory;
+
+/**
+ * @author atiqa
+ *
+ */
+public class DBMS2Factory extends Factory{
+
+}

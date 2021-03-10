@@ -1,0 +1,15 @@
+package StudentFactory;
+
+public class SPL2Student extends AbsStudent{
+	
+	public SPL2Student(int roll, String name) {
+		super(roll, name);
+	}
+
+	@Override
+	public void myDetsils() {
+		System.out.println("I am " + name);
+		System.out.println("My roll is " + roll);
+		System.out.println("we are doing project in this course");
+	}
+}

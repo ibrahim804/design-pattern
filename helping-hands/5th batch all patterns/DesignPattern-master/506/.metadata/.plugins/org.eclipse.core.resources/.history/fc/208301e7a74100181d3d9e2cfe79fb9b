@@ -1,0 +1,44 @@
+package Assignment;
+
+public class BreakFast implements FoodPackage{
+
+	private Drinks drinks;
+	private MainItems mainItems;
+	private Candied sweet;
+	
+	
+	public BreakFast() {
+		drinks = new Drinks();
+		mainItems = new MainItems();
+		sweet = new Candied();
+	}
+	
+	
+	
+	@Override
+	public void addDrinks() {
+		drinks.addItems(new Water());
+		drinks.addItems(new Pepsi());
+	}
+
+	@Override
+	public void addMainFood() {
+		mainItems.addItems(new Paratha());
+		mainItems.addItems(new Meat());
+		
+	}
+
+	@Override
+	public void addSweet() {	
+		sweet.addItems(new Sweet());
+		
+	}
+
+
+
+	@Override
+	public FoodPackage getFoodPackage() {
+		return this;
+	}
+
+}

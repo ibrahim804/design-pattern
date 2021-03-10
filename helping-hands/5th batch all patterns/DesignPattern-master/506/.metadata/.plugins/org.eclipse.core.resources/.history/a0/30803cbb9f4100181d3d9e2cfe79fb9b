@@ -1,0 +1,13 @@
+package Assignment;
+
+public class MainItems extends FoodList{
+
+	@Override
+	public void listDetails() {
+		System.out.println("Main Items contains: ");
+		System.out.println("-------------------------------");
+		
+		
+	}
+
+}

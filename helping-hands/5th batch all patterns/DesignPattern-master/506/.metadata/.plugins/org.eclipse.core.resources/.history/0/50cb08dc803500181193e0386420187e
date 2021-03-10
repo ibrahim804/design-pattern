@@ -1,0 +1,27 @@
+package StudentFactory;
+
+public class WebTechFactory extends Factory{
+
+	@Override
+	public void bulitCourse() {
+		course = new Course("Web Tech");
+	}
+
+	@Override
+	public void addStudentsToCourse() {
+		course.addStudent(new WebTechStudent(810, "Thamid Khan"));
+		course.addStudent(new WebTechStudent(811, "Iftekhar Jamil"));
+		course.addStudent(new WebTechStudent(812, "Tahlil"));
+		course.addStudent(new WebTechStudent(813, "Ibrahim Khalil"));
+		course.addStudent(new WebTechStudent(814, "Toukir Ahamed"));
+		course.addStudent(new WebTechStudent(815, "Mahir Mahbub"));
+		
+	}
+
+	@Override
+	public void addTeacherToCourse() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

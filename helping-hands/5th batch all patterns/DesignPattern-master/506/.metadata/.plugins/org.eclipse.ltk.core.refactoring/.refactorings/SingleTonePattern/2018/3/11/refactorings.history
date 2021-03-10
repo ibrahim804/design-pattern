@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;privateClasses.SingleTone.java&apos; to &apos;DatabaseInstance.java&apos;&#x0D;&#x0A;- Original project: &apos;SingleTonePattern&apos;&#x0D;&#x0A;- Original element: &apos;privateClasses.SingleTone.java&apos;&#x0D;&#x0A;- Renamed element: &apos;privateClasses.DatabaseInstance.java&apos;" description="Rename compilation unit &apos;SingleTone.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;privateClasses{SingleTone.java" name="DatabaseInstance.java" references="false" stamp="1521031798122" version="1.0"/>
+</session>

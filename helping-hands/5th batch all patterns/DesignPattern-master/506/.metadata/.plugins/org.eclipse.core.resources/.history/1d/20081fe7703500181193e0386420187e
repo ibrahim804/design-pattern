@@ -1,0 +1,10 @@
+package StudentFactory;
+
+public class SPL2Coordinator implements ITeacher{
+
+	@Override
+	public void teacherDetails() {
+		System.out.println("I co-ordinate SPL2");
+	}
+	
+}

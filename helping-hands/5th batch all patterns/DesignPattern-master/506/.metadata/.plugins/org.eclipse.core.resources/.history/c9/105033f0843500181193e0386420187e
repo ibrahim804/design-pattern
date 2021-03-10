@@ -1,0 +1,7 @@
+package StudentFactory;
+
+import java.util.Map;
+
+public class FactoryOFFactory {
+	private Map<Integer, Factory> factoryMap;
+}

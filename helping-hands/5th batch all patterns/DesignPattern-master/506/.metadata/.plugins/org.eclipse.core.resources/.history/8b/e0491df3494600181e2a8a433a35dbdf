@@ -1,0 +1,23 @@
+package assignemtFascade;
+
+public class CommandProcessor {
+	
+	public void proceed() {
+		
+		while(true) {
+			
+		}
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+
+}

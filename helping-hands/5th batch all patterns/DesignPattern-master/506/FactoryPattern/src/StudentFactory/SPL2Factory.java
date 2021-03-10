@@ -1,0 +1,29 @@
+package StudentFactory;
+
+public class SPL2Factory extends Factory{
+
+	@Override
+	public void bulitCourse() {
+		course = new Course("SPL 2 - 505");
+		
+	}
+
+	@Override
+	public void addStudentsToCourse() {
+		course.addStudent(new SPL2Student(832, "Afia Sazeda"));
+		course.addStudent(new SPL2Student(833, "Saara Sheneen"));
+		course.addStudent(new SPL2Student(834, "Meloy Kanti Sarkar"));
+		course.addStudent(new SPL2Student(835, "Taslima Binte Kamal"));
+		course.addStudent(new SPL2Student(839, "Sefat E Mahadi"));
+		
+	}
+
+	@Override
+	public void addTeacherToCourse() {
+		course.addTeacher(new SPL2Coordinator("Saafi"));
+		course.addTeacher(new SPL2Coordinator("Sayeed Siddik"));
+		course.addTeacher(new SPL2Coordinator("Amit Seal Ami"));
+		
+	}
+ 
+}

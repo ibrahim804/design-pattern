@@ -1,0 +1,15 @@
+package StudentFactory;
+
+public class BusinessCommunicationStudent extends AbsStudent{
+	
+	public BusinessCommunicationStudent(int roll, String name) {
+		super(roll, name);
+	}
+
+	@Override
+	public void myDetsils() {
+		System.out.println("I am " + name);
+		System.out.println("My roll is " + roll);
+		System.out.println("This is my one of the favourite course. Teacher teach us few time in this course.");
+	}
+}

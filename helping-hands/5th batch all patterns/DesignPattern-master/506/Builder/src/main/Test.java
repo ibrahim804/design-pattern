@@ -1,0 +1,16 @@
+package main;
+
+import Phone.Phone;
+import director.Director;
+
+public class Test {
+
+	public static void main(String[] args) {
+		Director director = new Director();
+		Phone phone = director.getPhone("SamsungGS10");
+		
+		System.out.println(phone.getDimension());
+
+	}
+
+}

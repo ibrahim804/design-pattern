@@ -1,0 +1,48 @@
+package Assignment;
+
+import java.awt.Color;
+import java.util.Scanner;
+
+public class Test {
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		Factory factory = new Factory();
+		
+		
+		while(true) {
+			System.out.print("Please enter sentance: ");
+			String words = scanner.nextLine();
+			System.out.println("Enter font type: ");
+			String fontName = scanner.nextLine();
+			System.out.print("border color: ");
+			String borderColor = scanner.nextLine();
+			System.out.println("font color: ");
+			String fontColor = scanner.nextLine();
+			System.out.println("font size: ");
+			int size = scanner.nextInt();
+			
+			Sentance sentance = factory.getSentance(words);
+			sentance.viewSentence(size, fontName, factory.getColor(borderColor), factory.getColor(fontColor));
+			System.out.println("----------------------------------");
+			
+			
+			
+			
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

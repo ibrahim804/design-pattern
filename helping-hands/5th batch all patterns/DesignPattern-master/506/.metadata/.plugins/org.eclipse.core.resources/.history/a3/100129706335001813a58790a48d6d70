@@ -1,0 +1,17 @@
+package StudentFactory;
+
+public class AbsStudent {
+
+	protected int roll;
+	protected String course;
+	
+	public AbsStudent(int roll, String Course) {
+		this.roll = roll;
+		this.Course
+	}
+	
+	public void myDetsils() {
+		
+	}
+	
+}

@@ -1,0 +1,7 @@
+package StudentFactory;
+
+public interface IStudent {
+
+	
+	
+}

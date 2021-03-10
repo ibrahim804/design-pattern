@@ -1,0 +1,32 @@
+package Assignment;
+
+public class BreakFast implements FoodPlaner{
+
+	private Drinks drinks;
+	private MainItems mainItems;
+	private Candied sweet;
+	
+	
+	
+	
+	
+	
+	@Override
+	public void addDrinks() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void addMainFood() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void addSweet() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

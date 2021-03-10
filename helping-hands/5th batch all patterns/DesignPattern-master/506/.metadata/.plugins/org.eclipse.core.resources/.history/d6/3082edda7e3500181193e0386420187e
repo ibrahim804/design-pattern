@@ -1,0 +1,17 @@
+package StudentFactory;
+
+public class Factory {
+
+	protected ICourse course;
+	
+	public Factory() {
+		bulitCourse();
+		addStudentsToCourse();
+		addTeacherToCourse();
+	}
+	
+	public void viewCOurseInformation() {
+		course.printCourseDetailse();
+	}
+	
+}

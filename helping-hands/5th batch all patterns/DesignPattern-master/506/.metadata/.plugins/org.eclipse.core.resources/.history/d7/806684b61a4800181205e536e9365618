@@ -1,0 +1,28 @@
+package users;
+
+import java.util.ArrayList;
+
+import interfaces.IGroup;
+
+public class FacebookGroup implements IGroup{
+
+	protected ArrayList<User> allUser;
+	
+	public FacebookGroup() {
+		allUser = new ArrayList<>();
+	}
+	
+	@Override
+	public void addUser(User user) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void sendMessage(User user, String message) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+
+}

@@ -1,0 +1,21 @@
+package main;
+
+import java.util.Scanner;
+
+import StudentFactory.FactoryOFFactory;
+import StudentFactory.ICourse;
+
+public class AssignmentTest {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in); 
+		System.out.print("enter course number :   ");
+		int courseNumber = scanner.nextInt();
+		
+		ICourse course = new FactoryOFFactory().getFactory(courseNumber).getCourse();
+		course.printCourseDetailse();
+		
+		
+		
+		
+	}
+}

@@ -1,0 +1,8 @@
+package interfaces;
+
+public interface IUser {
+	
+	public void sendMessageToGroup(String message);
+	public void receiveMessage(String message);
+
+}

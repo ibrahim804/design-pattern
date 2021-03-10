@@ -1,0 +1,19 @@
+package AssignmentCommandSpliter;
+
+import java.util.ArrayList;
+
+import AssignmentInterfaces.ICommandProcedurerMethods;
+import command.TransformCommand;
+import receiver.ReceiverCircle;
+
+public class RedoCommandMethod implements ICommandProcedurerMethods{
+
+	@Override
+	public void proceedCommand(ArrayList<TransformCommand> commandList, ReceiverCircle circle) {
+		if(commandList.size()> 0)
+			commandList.get(commandList.size()-1).redo();
+		System.out.println("re do");
+		
+	}
+
+}

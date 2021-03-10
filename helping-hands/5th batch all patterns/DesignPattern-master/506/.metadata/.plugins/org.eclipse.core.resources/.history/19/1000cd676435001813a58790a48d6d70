@@ -1,0 +1,18 @@
+package StudentFactory;
+
+public class ParallelCourseStudent extends AbsStudent{
+
+	public ParallelCourseStudent(int roll, String name) {
+		super(roll, name);
+	}
+
+	@Override
+	public void myDetsils() {
+		System.out.println("I am " + name);
+		System.out.println("My roll is " + roll);
+		System.out.println("Parallel Computing is my favourite course.");
+	}
+
+	
+
+}

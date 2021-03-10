@@ -1,0 +1,30 @@
+/**
+ * 
+ */
+package StudentFactory;
+
+/**
+ * @author atiqa
+ *
+ */
+public class DBMS2Factory extends Factory{
+
+	@Override
+	public void bulitCourse() {
+		course = new Course("DBSM 2 - 504");
+		
+	}
+
+	@Override
+	public void addStudentsToCourse() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void addTeacherToCourse() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,19 @@
+package classWork;
+
+public abstract class COR {
+	
+	protected COR nextCor = null;
+	
+	public COR(COR cor) {
+		nextCor = cor;
+	}
+	
+	public COR() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+	public abstract int calculate(int a, int b, int op);
+
+	
+}

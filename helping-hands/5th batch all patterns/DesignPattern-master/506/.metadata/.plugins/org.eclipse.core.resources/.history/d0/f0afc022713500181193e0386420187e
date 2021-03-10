@@ -1,0 +1,10 @@
+package StudentFactory;
+
+public class ParallelCourseTeacher implements ITeacher{
+
+	@Override
+	public void teacherDetails() {
+		System.out.println("I teach parallel computing");
+	}
+
+}

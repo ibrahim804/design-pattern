@@ -1,0 +1,31 @@
+package users;
+
+import interfaces.IUser;
+
+public class User implements IUser{
+	private String name;
+	
+	
+	public User(String name) {
+		this.name = name;
+	}
+	
+	
+	public String getName(){
+		return name;
+	}
+
+
+	@Override
+	public void sendMessageToGroup(String message, FacebookGroup group) {
+		group.sendMessage(this, message);
+	}
+
+
+	@Override
+	public void receiveMessage(String message) {
+		
+		
+	}
+	
+}

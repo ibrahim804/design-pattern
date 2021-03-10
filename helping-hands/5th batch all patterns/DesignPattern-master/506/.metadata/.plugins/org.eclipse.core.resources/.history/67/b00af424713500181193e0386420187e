@@ -1,0 +1,10 @@
+package StudentFactory;
+
+public class ParallelCourseTeacher extends AbsTeacher{
+
+	@Override
+	public void otherDetails() {
+		System.out.println("I teach parallel computing");
+	}
+
+}

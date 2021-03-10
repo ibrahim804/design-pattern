@@ -1,0 +1,11 @@
+package StudentFactory;
+
+public class DBSM2Teacher implements ITeacher{
+
+	@Override
+	public void teacherDetails() {
+		System.out.println("I teach data mining.");
+		
+	}
+
+}

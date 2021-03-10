@@ -1,0 +1,11 @@
+package interfaces;
+
+import users.FacebookGroup;
+
+public interface IUser {
+	
+	public void sendMessageToGroup(String message, FacebookGroup group);
+	public void receiveMessage(String message);
+	
+
+}

@@ -1,0 +1,23 @@
+package receiver;
+
+public class ReceiverCircle {
+
+	private int circleX, circleY;
+	
+	public void transform(int x, int y) {
+		
+	}
+	
+	public void editRedius() {
+		
+	}
+	
+	public void editColor() {
+		
+	}
+	
+	
+	
+	
+	
+}

@@ -1,0 +1,10 @@
+package allShapes;
+
+public class Line implements IShap{
+
+	@Override
+	public void drow() {
+		System.out.println("A line has been drown");
+	}
+
+}

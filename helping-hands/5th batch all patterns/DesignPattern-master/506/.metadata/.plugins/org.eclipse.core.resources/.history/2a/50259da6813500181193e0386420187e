@@ -1,0 +1,26 @@
+package StudentFactory;
+
+public abstract class Factory {
+
+	protected ICourse course;
+	
+	public Factory() {
+		bulitCourse();
+		addStudentsToCourse();
+		addTeacherToCourse();
+	}
+	
+	public abstract void bulitCourse();
+	public abstract void addStudentsToCourse();
+	public abstract void addTeacherToCourse();
+	
+	public void viewCOurseInformation() {
+		course.printCourseDetailse();
+	}
+	
+	public ICourse getCourse() {
+		return course;
+		return course;
+	}
+	
+}

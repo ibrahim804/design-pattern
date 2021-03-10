@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;Receiver&apos; to &apos;receiver&apos;&#x0D;&#x0A;- Original project: &apos;Command&apos;&#x0D;&#x0A;- Original element: &apos;Command/src/Receiver&apos;&#x0D;&#x0A;- Renamed element: &apos;Command/src/receiver&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;Receiver&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;Receiver" name="receiver" qualified="false" references="true" stamp="1523914887058" textual="false" version="1.0"/>
+</session>

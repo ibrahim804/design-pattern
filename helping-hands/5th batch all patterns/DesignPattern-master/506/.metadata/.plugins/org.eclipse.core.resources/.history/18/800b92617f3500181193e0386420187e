@@ -1,0 +1,23 @@
+package StudentFactory;
+
+public class ParallelComputingFactory extends Factory{
+
+	@Override
+	public void bulitCourse() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void addStudentsToCourse() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void addTeacherToCourse() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}

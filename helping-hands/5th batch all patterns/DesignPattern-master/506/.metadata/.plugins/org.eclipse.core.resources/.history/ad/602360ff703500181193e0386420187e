@@ -1,0 +1,9 @@
+package StudentFactory;
+
+public class BusinessCommunicationTeacher implements ITeacher{
+
+	@Override
+	public void teacherDetails() {
+		System.out.println("I teach business communication.");
+	}
+}

@@ -1,0 +1,12 @@
+package classwork;
+
+public class Transaction {
+	
+	private int balance;
+	
+	
+	
+	
+	
+	
+}

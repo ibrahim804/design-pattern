@@ -1,0 +1,29 @@
+package invoker;
+
+import java.util.ArrayList;
+
+import interfaces.ICommand;
+
+public class Invoker {
+
+	private ArrayList<ICommand> allCommand;
+	
+	
+	public Invoker() {
+		allCommand = new ArrayList<>();
+	}
+	
+	public void addCommand(ICommand command) {
+		allCommand.add(command);
+	}
+	
+	
+	public void executeAllCommand() {
+		
+	}
+	
+	
+	
+	
+	
+}

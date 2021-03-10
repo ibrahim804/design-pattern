@@ -1,0 +1,36 @@
+package StudentFactory;
+
+import java.util.ArrayList;
+
+public class Course implements ICourse{
+
+	protected String courseName;
+	protected ArrayList<AbsStudent> allStudent;
+	protected ArrayList<ITeacher> allTeacher;
+	
+	public Course(String courseName) {
+		this.courseName = courseName;
+		allStudent = new ArrayList<>();
+		allTeacher = new ArrayList<>();
+	
+	}
+
+	@Override
+	public void printCourseDetailse() {
+		System.out.println("---------------------------------------");
+		System.out.println("course name:: " + courseName);
+		System.out.println();
+		for (AbsStudent student : allStudent) 
+			 student.myDetsils();
+		System.out.println();
+		for (ITeacher teacher : allTeacher)
+			teacher.teacherDetails();
+		System.out.println();
+		System.out.println("---------------------------------------");
+		 
+	}
+	
+	
+	
+	
+}

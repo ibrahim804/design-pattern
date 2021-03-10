@@ -1,0 +1,15 @@
+package all;
+
+public class Originator {
+
+	private Caretaker  caretaker;
+	public Originator() {
+		caretaker = new Caretaker();
+	}
+	
+	
+	
+	
+	
+	
+}

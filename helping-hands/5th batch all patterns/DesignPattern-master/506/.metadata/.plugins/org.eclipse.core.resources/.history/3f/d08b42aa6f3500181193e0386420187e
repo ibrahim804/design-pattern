@@ -1,0 +1,11 @@
+package StudentFactory;
+
+public class DesignPatternTeacher extends AbsTeacher{
+
+	@Override
+	public void otherDetails() {
+		System.out.println("I taech deasign pattern.");
+		
+	}
+	
+}

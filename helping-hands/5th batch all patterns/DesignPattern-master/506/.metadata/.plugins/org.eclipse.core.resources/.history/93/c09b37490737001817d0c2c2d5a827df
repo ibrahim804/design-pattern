@@ -1,0 +1,16 @@
+package circle;
+
+public class FlyWeightCircle {
+
+	private int color;
+	
+	public FlyWeightCircle(int color) {
+		this.color = color;
+	}
+	
+	public void drow(int x, int y) {
+		System.out.println("color = " + color + ", x = " + x + ", y = " + y);
+	}
+	
+	
+}

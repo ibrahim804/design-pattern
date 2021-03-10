@@ -1,0 +1,11 @@
+package allShapes;
+
+public class Flag extends CompositShape{
+
+	@Override
+	public void buildShap() {
+		shapes.add(new Rectangle());
+		shapes.add(new Circle());
+	}
+
+}

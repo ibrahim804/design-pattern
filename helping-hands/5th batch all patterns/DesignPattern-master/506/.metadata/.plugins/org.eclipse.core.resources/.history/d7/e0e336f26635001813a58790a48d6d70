@@ -1,0 +1,15 @@
+package StudentFactory;
+
+public class WebTechStudent extends AbsStudent{
+	
+	public WebTechStudent(int roll, String name) {
+		super(roll, name);
+	}
+
+	@Override
+	public void myDetsils() {
+		System.out.println("I am " + name);
+		System.out.println("My roll is " + roll);
+		System.out.println("I am learning HTML, CSS, JS and PHP in this course");
+	}
+}

@@ -1,0 +1,11 @@
+package StudentFactory;
+
+public class Factory {
+
+	public Factory() {
+		bulitCourse();
+		addStudentsToCourse();
+		addTeacherToCourse();
+	}
+	
+}

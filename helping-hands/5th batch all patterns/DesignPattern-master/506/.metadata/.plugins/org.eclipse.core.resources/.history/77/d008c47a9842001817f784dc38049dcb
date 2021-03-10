@@ -1,0 +1,21 @@
+package classwork;
+
+public class Transaction {
+	
+	private int balance;
+	
+	public Transaction(int balance) {
+		this.balance = balance;
+	}
+	
+	public void deposit(int amount) {
+		if(amount > 0)
+			balance += amount;
+	}
+	
+	public void withdwrpw(int amount) {
+		if(amount < 0)
+			balance += amount;
+	}
+	
+}

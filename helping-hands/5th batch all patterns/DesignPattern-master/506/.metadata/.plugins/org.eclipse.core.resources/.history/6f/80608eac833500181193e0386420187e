@@ -1,0 +1,23 @@
+package StudentFactory;
+
+public class SPL2Factory extends Factory{
+
+	@Override
+	public void bulitCourse() {
+		course = new Course("SPL 2 - 505");
+		
+	}
+
+	@Override
+	public void addStudentsToCourse() {
+		
+		
+	}
+
+	@Override
+	public void addTeacherToCourse() {
+		// TODO Auto-generated method stub
+		
+	}
+ 
+}

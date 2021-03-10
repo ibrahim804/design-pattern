@@ -1,0 +1,32 @@
+package AssignmentCommandSpliter;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+import AssignmentInterfaces.ICommandProcedurerMethods;
+import command.TransformCommand;
+
+public class AddCommand implements  ICommandProcedurerMethods{
+
+	private Scanner scanner;
+	
+	public AddCommand() {
+		scanner = new Scanner(System.in);
+	}
+	
+	@Override
+	public void proceedCommand(ArrayList<TransformCommand> commandList) {
+		
+		System.out.print("Please enter new x:: ");
+		String xString = scanner.nextLine();
+		System.out.print("Please enter new y:: ");
+		String yString = scanner.nextLine();
+		
+		
+		
+		
+		
+		
+	}
+
+}

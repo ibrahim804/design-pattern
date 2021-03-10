@@ -1,0 +1,19 @@
+package users;
+
+public class DPGroup extends FacebookGroup{
+
+	public DPGroup() {
+		super();
+	}
+	
+	@Override
+	public void sendMessage(User user, String message) {
+		System.out.println("this is DP Group");
+		for(int i = 0; i < allUser.size(); i++) {
+			if(allUser.get(i) != user)
+				allUser.get(i).receiveMessage(message);
+		}
+		
+	}
+
+}

@@ -1,0 +1,23 @@
+package StudentFactory;
+
+public class WebTechFactory extends Factory{
+
+	@Override
+	public void bulitCourse() {
+		course = new Course("Web Tech");
+		
+	}
+
+	@Override
+	public void addStudentsToCourse() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void addTeacherToCourse() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

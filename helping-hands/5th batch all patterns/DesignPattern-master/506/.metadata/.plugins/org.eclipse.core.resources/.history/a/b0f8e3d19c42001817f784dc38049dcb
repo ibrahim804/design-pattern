@@ -1,0 +1,16 @@
+package classWork;
+
+public class Add extends COR{
+
+	
+	public Add(COR cor) {
+		super(cor);
+	}
+	
+	@Override
+	public int calculate() {
+		
+		return 0;
+	}
+
+}

@@ -1,0 +1,31 @@
+package AssignmentCommandSpliter;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+import AssignmentInterfaces.ICommandProcedurerMethods;
+import command.TransformCommand;
+import receiver.ReceiverCircle;
+
+public class AddCommand implements  ICommandProcedurerMethods{
+
+	private Scanner scanner;
+	
+	public AddCommand() {
+		scanner = new Scanner(System.in);
+	}
+	
+	@Override
+	public void proceedCommand(ArrayList<TransformCommand> commandList, ReceiverCircle circle) {
+		
+		System.out.print("Please enter new x:: ");
+		String xString = scanner.nextLine();
+		System.out.print("Please enter new y:: ");
+		String yString = scanner.nextLine();
+		int x = Integer.parseInt(xString);
+		int y = Integer.parseInt(yString);
+		TransformCommand command = new TransformCommand(circle, x, y)
+		
+	}
+
+}

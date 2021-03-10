@@ -1,0 +1,9 @@
+package Assignment;
+
+public class Test {
+	public static void main(String[] args) {
+		Sentance sentance = new Sentance("Hello");
+		sentance.viewSentence(20, "Verdana");
+	}
+
+}

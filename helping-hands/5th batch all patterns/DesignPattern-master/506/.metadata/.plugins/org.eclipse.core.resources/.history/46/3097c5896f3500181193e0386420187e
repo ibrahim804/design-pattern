@@ -1,0 +1,16 @@
+package StudentFactory;
+
+public class AbsTeacher implements ITeacher{
+
+	protected String name;
+	public AbsTeacher(String name) {
+		this.name = name;
+	}
+	
+	@Override
+	public void teacherDetails() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,17 @@
+package StudentFactory;
+
+public class AbsStudent {
+
+	protected int roll;
+	protected String name;
+	
+	public AbsStudent(int roll, String name) {
+		this.roll = roll;
+		this.name = name;
+	}
+	
+	public void myDetsils() {
+		
+	}
+	
+}

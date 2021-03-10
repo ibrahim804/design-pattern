@@ -1,0 +1,14 @@
+package classwork;
+
+public class ScCode {
+	private int code;
+	
+	public ScCode(int code) {
+		this.code = code;
+	}
+	
+	public boolean checkCode(int code) {
+		if(this.code == code) return true;
+		else return false;
+	}
+}

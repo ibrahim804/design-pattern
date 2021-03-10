@@ -1,0 +1,28 @@
+package StudentFactory;
+
+public class BusinessCommunicationFactory extends Factory{
+
+	@Override
+	public void bulitCourse() {
+		course = new Course("Business communication - 503");
+		
+	}
+
+	@Override
+	public void addStudentsToCourse() {
+		course.addStudent(new WebTechStudent(816, "Imam Hossain Kawser"));
+		course.addStudent(new WebTechStudent(817, "Atiq Ahammed"));
+		course.addStudent(new WebTechStudent(818, "Hasan Tarek"));
+		course.addStudent(new WebTechStudent(819, "Chinmoy Achaerjee"));
+		course.addStudent(new WebTechStudent(821, "Sumaya Sammy"));
+		course.addStudent(new WebTechStudent(822, "Khayrul Islam"));
+		
+	}
+
+	@Override
+	public void addTeacherToCourse() {
+		course.addTeacher(new BusinessCommunicationTeacher("Iftekhar Amin"));
+		
+	}
+
+}

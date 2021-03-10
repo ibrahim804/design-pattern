@@ -1,0 +1,30 @@
+package privateClasses;
+
+public class SingleTone {
+	private static SingleTone singleTone;
+	private int value;
+	private SingleTone(){};
+
+	public static SingleTone getSingleTone() {
+		if(singleTone == null) {
+			synchronized (SingleTone.class) {
+				if(singleTone == null) {
+					singleTone = new SingleTone();
+				}
+				return singleTone;
+			}
+		}
+		return singleTone;
+	}
+
+	public static void updateSingleTone(String threadName) {
+			synchronized (SingleTone.class) {
+				if(singleTone == null) {
+					singleTone = new SingleTone();
+				}
+				return singleTone;
+			}
+		}
+		return singleTone;
+	}
+}

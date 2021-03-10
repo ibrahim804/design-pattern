@@ -1,0 +1,17 @@
+package AssignmentCommandSpliter;
+
+import java.util.ArrayList;
+
+import AssignmentInterfaces.ICommandProcedurerMethods;
+import command.TransformCommand;
+
+public class RedoCommandMethod implements ICommandProcedurerMethods{
+
+	@Override
+	public void proceedCommand(ArrayList<TransformCommand> commandList) {
+		// TODO Auto-generated method stub
+		System.out.println("re do");
+		
+	}
+
+}

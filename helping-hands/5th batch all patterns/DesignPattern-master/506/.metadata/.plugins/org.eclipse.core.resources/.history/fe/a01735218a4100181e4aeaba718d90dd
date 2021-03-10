@@ -1,0 +1,22 @@
+package privateClasses;
+
+public class SingleTone {
+	private static SingleTone singleTone;
+	private SingleTone(){};
+
+	public static SingleTone getSingleTone() {
+		if(singleTone == null) {
+			synchronized (DatabaseInstance.class) {
+				if(singleTone == null) {
+					singleTone = new SingleTone();
+				}
+				return singleTone;
+			}
+		}
+		return singleTone;
+	}
+
+	public void testDataBase(){
+		System.out.println("got it");
+	}
+}

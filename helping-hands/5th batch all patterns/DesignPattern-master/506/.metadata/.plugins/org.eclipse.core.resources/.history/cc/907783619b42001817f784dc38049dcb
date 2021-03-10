@@ -1,0 +1,16 @@
+package classWork;
+
+public class COR {
+	
+	protected COR nextCor;
+	
+	public COR(COR cor) {
+		nextCor = cor;
+	}
+	
+	
+	public abstract int calculate();
+	
+	
+	
+}

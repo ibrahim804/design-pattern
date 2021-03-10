@@ -1,0 +1,9 @@
+package main;
+
+import receiver.ReceiverCircle;
+
+public class Test1 {
+	public static void main(String[] args) {
+		ReceiverCircle circle = new ReceiverCircle(2 , 3);
+	}
+}

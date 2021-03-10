@@ -1,0 +1,9 @@
+package AssignmentInterfaces;
+
+import java.util.ArrayList;
+
+import command.TransformCommand;
+
+public interface ICommandProcedurerMethods {
+	public void proceedCommand(ArrayList<TransformCommand> commandList);
+}
